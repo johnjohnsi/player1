@@ -15,10 +15,10 @@ public class Panagram {
 		}
 		}
 		if(count==26){
-			System.out.println("The given string is panagram");
+			System.out.println("The given string is pangram");
 		}
 		else{
-			System.out.println("The given string is not panagram");
+			System.out.println("The given string is not pangram");
 		}
 		s.close();
 	}
