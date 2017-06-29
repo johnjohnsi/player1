@@ -27,10 +27,10 @@ public class Square {
 			k+=d[i];
 		}
 		if(y-x==z-k){
-			System.out.println("Equals");
+			System.out.println("Square");
 		}
 		else{
-			System.out.println("Not equals");
+			System.out.println("Not Square");
 		}
 	}
 
