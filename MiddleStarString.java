@@ -8,10 +8,12 @@ public class MiddleStarString {
 		if( input.length() % 2 != 0 ) {
 			positionMiddle = input.length()/2;
 			String ch = input.substring(positionMiddle);
-			System.out.println(input.replace(ch, "*")+input.substring(positionMiddle+1));
+			StringBuffer SubStringReverse = new StringBuffer(input.replace(ch, "*")+input.substring(positionMiddle+1)).reverse();
+			System.out.println(SubStringReverse);
 		}
 		else {
-			System.out.println(input.substring(0,input.length()/2) + "*" + input.substring(input.length()/2,input.length()));
+			StringBuffer SubStringReverse = new StringBuffer(input.substring(0,input.length()/2) + "*" + input.substring(input.length()/2,input.length())).reverse();
+			System.out.println(SubStringReverse);
 		}
 		s.close();
 	}
